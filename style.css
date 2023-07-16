@@ -1,0 +1,238 @@
+/* font-family: 'Alegreya Sans SC',sans-serif;
+font-family: 'Open Sans',sans-serif;
+font-family: 'Pacifico',cursive;
+font-family: 'Source Sans 3',sans-serif; */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-image: radial-gradient(#322841, #4F3256);
+    position: sticky;
+    top: 0px;
+
+}
+
+.nav-logo,
+.nav-name {
+    /* margin: 10px 20px; */
+    width: 25%;
+}
+
+.nav-menu {
+    /* margin: 10px 20px; */
+    width: 50%;
+}
+
+.nav-menu ul {
+    display: flex;
+    text-align: right;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: right;
+}
+
+.nav-menu a {
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+.nav-logo .icon {
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    line-height: 1.5x;
+    background: -webkit-linear-gradient(#FED133,
+            #E95054);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* vertical-align: middle; */
+}
+
+.nav-logo .we,
+.web {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 3px;
+    background: -webkit-linear-gradient(#3AB1E6, #7CC6B3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-logo .code {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 3px;
+    background: -webkit-linear-gradient(#3AB1E6, #7CC6B3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.nav-logo,
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+span {
+    display: Inline-block;
+    /* padding-top: 25px;
+            font-size: 35px; */
+    /* color: #fff; */
+
+}
+
+/* a {
+    margin: 20px;
+    padding-top: 15px;
+    text-decoration: none;
+} */
+
+.GFG {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.nav-logo .icon,
+.we,
+.code,
+.web {
+    vertical-align: middle;
+}
+
+.nav-logo,
+.nav-menu {
+    vertical-align: middle;
+}
+
+.nav-logo a,
+.nav-menu a {
+    text-decoration: none;
+}
+
+/* Nav Ends Here */
+
+.web-dev-image {
+    width: 50%;
+    margin: 10px 20px;
+
+
+}
+
+.web-dev-content {
+    width: 50%;
+    margin: 20px 40px;
+}
+
+.web-dev-image img {
+    width: 65%;
+    padding: 0 15px;
+}
+
+.intro {
+    background-color: #92E3A9;
+}
+
+.web-dev-content h1 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 45px;
+    line-height: 1.25;
+
+}
+
+.btn1 button {
+    margin-top: 50px;
+    height: 50px;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+    background-color: #4F3256;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 1.5;
+    font-weight: 500;
+}
+
+.intro-content {
+    padding: 0 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.services{
+    background-color: #7CC6B3;
+}
+
+.title {
+    background-color: #7CC6B3;
+    max-width: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #7CC6B3;
+}
+.service li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 10px;
+
+}
+footer{
+    width: 100%;
+    background-color: black;
+}
+.footer-logo{
+    display: flex;
+    padding: 0;
+}
+.footer-content{
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 19px;
+}
+
+
+/* Social Medias */
