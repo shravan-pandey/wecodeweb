@@ -178,6 +178,7 @@ font-family: 'Source Sans 3',sans-serif; */
     font-family: 'Source Sans 3', sans-serif;
     letter-spacing: 1.5;
     font-weight: 500;
+    cursor:pointer;
 }
 
 .intro-content {
@@ -479,6 +480,7 @@ iframe {
     height: 50px;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
+    cursor:pointer;
 }
 
 /* ABOUT US SECTION */
@@ -600,6 +602,7 @@ option {
     background-color: #232526;
     color: white;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 /* CONTACT US SECTION ENDS */
@@ -684,6 +687,7 @@ footer {
     padding-right: 15px;
     font-size: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 .footer-menu{
@@ -697,6 +701,8 @@ footer {
     font-size: 20px;
     padding-top: 40px;
     padding-left: 30px;
+    cursor: pointer;
+    
 }
 
 .footer-menu a{
